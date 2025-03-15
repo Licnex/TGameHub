@@ -19,8 +19,8 @@ def getAvailableLetters(lettersGuessed):
     return ''.join(letter for letter in string.ascii_lowercase if letter not in lettersGuessed)
 
 def hangman(secretWord):
-    print("Welcome to the game, Hangman!")
-    print(f"I am thinking of a word that is {len(secretWord)} letters long.")
+    print("Welcome to Hangman! A hangman needs to be saved, thankfully he loves someone with good vocab, so if you can guess the word. He'll regain faith in humanity!")
+    print(f"Hangman: I am thinking of a word that is {len(secretWord)} letters long.")
     
     mistakeMade = 0
     lettersGuessed = []
@@ -28,7 +28,7 @@ def hangman(secretWord):
     while 8 - mistakeMade > 0:
         print("-------------")
         if isWordGuessed(secretWord, lettersGuessed):
-            print("Congratulations, you won!")
+            print("Congratulations, you saved him!")
             break
         else:
             print(f"You have {8 - mistakeMade} guesses left.")
@@ -47,7 +47,7 @@ def hangman(secretWord):
             
         if 8 - mistakeMade == 0:
             print("-------------")
-            print(f"Sorry, you ran out of guesses. The word was {secretWord}.")
+            print(f"Sorry, you ran out of guesses. The hangman hanged himself. The word was {secretWord}.")
             break
 def play():
     wordlist = loadWords(word_data)
