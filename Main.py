@@ -1,6 +1,6 @@
 import os
 import sys
-from games import tic_tac_toe, connect4, sudoku, snake, hangman, minesweeper, game_2048, battleship, chess, doom
+from Games import TicTacToe, Connect4, Sudoku, Snake, Hangman, Battleship, Chess, Doom
 
 def clear_screen():
     """Clears the terminal screen for a better user experience."""
@@ -15,40 +15,33 @@ def main_menu():
         print("2. Play Snake")
         print("3. Play Hangman")
         print("4. Play Connect 4")
-        print("5. Play Minesweeper")
-        print("6. Play 2048")
-        print("7. Play Battleship")
-        print("8. Play Sudoku")
-        print("9. Play Chess")
+        print("5. Play Battleship")
+        print("6. Play Sudoku")
+        print("7. Play Chess")
         print("0. Exit")
-        choice = input("Choose an option (0-9): ").strip()
+        choice = input("Choose an option (0-7): ").strip()
 
         if choice == '1':
-            tic_tac_toe.play()
+            TicTacToe.play()
         elif choice == '2':
-            snake.play()
+            Snake.play()
         elif choice == '3':
-            hangman.play()
+            Hangman.play()
         elif choice == '4':
-            connect4.play()
+            Connect4.play()
         elif choice == '5':
-            minesweeper.play()
+            Battleship.play()
         elif choice == '6':
-            game_2048.play()
+            Sudoku.play()
         elif choice == '7':
-            battleship.play()
+            Chess.play()
         elif choice == '8':
-            sudoku.play()
-        elif choice == '9':
-            chess.play()
+            Doom.play()
         elif choice == '0':
             print("Thanks for playing! Goodbye. 👋")
             sys.exit()
-        elif choice == '10':
-            print("🎉 Congratulations! You found the secret game! 🎉 DOOM")
-            doom.play()
         else:
-            print("❌ Invalid choice. Please enter a number from 0 to 9.")
+            print("❌ Invalid choice. Please enter a number from 0 to 7.")
             input("Press Enter to try again...")
 
 if __name__ == "__main__":

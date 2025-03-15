@@ -1,3 +1,4 @@
+
 # Initialize the board and game state
 board = ["-"] * 9
 game_on = True
@@ -17,18 +18,12 @@ def choose_players():
             p2 = "O" if p1 == "X" else "X"
             print(f"Player 1: {p1}, Player 2: {p2}")
             return p1
-        elif p1 == "exit":
-            print("Thanks for playing! Goodbye. 👋")
-            exit()
         print("Invalid input. Please choose X or O.")
 
 def get_move(player):
     """Prompt the current player for a valid move and return the board index."""
     while True:
         move = input(f"Current Player {player}, choose a position (1-9): ").strip()
-        if move == "exit":
-            print("Thanks for playing! Goodbye. 👋")
-            exit()
         if move not in map(str, range(1, 10)):
             print("Invalid input. Enter a number from 1 to 9.")
             continue
@@ -87,6 +82,3 @@ def play():
             game_on = False
         else:
             current_player = flip_player(current_player)
-
-if __name__ == "__main__":
-    play()
