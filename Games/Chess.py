@@ -1,5 +1,4 @@
-import os
-import re
+"""Edited version of https://github.com/BiancaNCoelho/ChessCLI"""
 import curses
 
 inputTranslator = {
