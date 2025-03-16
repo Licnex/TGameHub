@@ -74,5 +74,3 @@ class Connect4:
 
 def play():
     curses.wrapper(Connect4)
-
-play()
