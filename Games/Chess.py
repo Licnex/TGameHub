@@ -1,5 +1,6 @@
 """Edited version of https://github.com/BiancaNCoelho/ChessCLI"""
 import curses
+import re
 
 inputTranslator = {
     "1": 7,
