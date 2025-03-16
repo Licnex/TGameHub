@@ -1,6 +1,6 @@
 import os
 import sys
-from Games import TicTacToe, Connect4, Sudoku, Snake, Hangman, Battleship, Chess, Doom
+from Games import SuperMario, TicTacToe, Connect4, Sudoku, Snake, Hangman, Battleship, Chess
 
 def clear_screen():
     """Clears the terminal screen for a better user experience."""
@@ -37,7 +37,7 @@ def main_menu():
         elif choice == '7':
             Chess.play()
         elif choice == '8':
-            Doom.play()
+            SuperMario.play()
         elif choice == '9':
             print("Thanks for playing! Goodbye. 👋")
             sys.exit()
