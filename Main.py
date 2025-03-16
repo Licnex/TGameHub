@@ -18,7 +18,8 @@ def main_menu():
         print("5. Play Battleship")
         print("6. Play Sudoku")
         print("7. Play Chess")
-        print("0. Exit")
+        print("9. Exit")
+        print("10. Help")
         choice = input("Choose an option (0-7): ").strip()
 
         if choice == '1':
@@ -37,9 +38,13 @@ def main_menu():
             Chess.play()
         elif choice == '8':
             Doom.play()
-        elif choice == '0':
+        elif choice == '9':
             print("Thanks for playing! Goodbye. 👋")
             sys.exit()
+        elif choice == '10':
+            print("TGameHub is a collection of classic games written in Python.")
+            print("Use the menu to select a game and play.")
+            print("Please keep the terminal window size large as a very small window may cause an error")
         else:
             print("❌ Invalid choice. Please enter a number from 0 to 7.")
             input("Press Enter to try again...")
