@@ -13,8 +13,6 @@
   <p align="center">
     A Collection of Terminal Based Games
     <br />
-    <a href="https://github.com/Licnex/TGameHub"><strong>Explore the docs »</strong></a>
-    <br />
     <br />
     <a href="https://github.com/Licnex/TGameHub">View Demo</a>
     &middot;
