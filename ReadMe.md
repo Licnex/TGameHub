@@ -8,19 +8,19 @@
 
 
 
-<h3 align="center">tgamehub</h3>
+<h3 align="center">TGameHub</h3>
 
   <p align="center">
     A Collection of Terminal Based Games
     <br />
-    <a href="https://github.com/licnex/tgamehub"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/licnex/TGameHub"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/licnex/tgamehub">View Demo</a>
+    <a href="https://github.com/licnex/TGameHub">View Demo</a>
     &middot;
-    <a href="https://github.com/licnex/tgamehub/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/licnex/TGameHub/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     &middot;
-    <a href="https://github.com/licnex/tgamehub/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/licnex/TGameHub/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -57,7 +57,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Welcome to Tgamehub, a terminal based project with a decent number of games
+Welcome to TGameHub, a terminal based project with a decent number of games
 
 ### Built With
 
@@ -87,7 +87,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Installation
 - clone this repo using `git clone https://github.com/Licnex/TGameHub.git`
-- get into the repo using `cd tgamehub`
+- get into the repo using `cd TGameHub`
 - intall the used library using `pip install -r requirements.txt`(dont worry if pip gives you an error on could find a version, then its probably preinstalled into your computer and just manually install all the other libraries in requirements.txt using pip) 
 - run main.py using `python main.py`
 
@@ -120,8 +120,8 @@ Don't forget to give the project a star! Thanks again!
 
 ### Top contributors:
 
-<a href="https://github.com/licnex/tgamehub/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=licnex/tgamehub" alt="contrib.rocks image" />
+<a href="https://github.com/licnex/TGameHub/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=licnex/TGameHub" alt="contrib.rocks image" />
 </a>
 
 
@@ -140,7 +140,7 @@ Distributed under the MIT licnese. See `LICENSE.txt` for more information.
 
 Your Name - [@LicnexKhan](https://twitter.com/LicnexKhan) - mominravage@gmail.com
 
-Project Link: [https://github.com/licnex/tgamehub](https://github.com/licnex/tgamehub)
+Project Link: [https://github.com/licnex/TGameHub](https://github.com/licnex/TGameHub)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,16 +159,16 @@ Project Link: [https://github.com/licnex/tgamehub](https://github.com/licnex/tga
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/licnex/tgamehub.svg?style=for-the-badge
-[contributors-url]: https://github.com/licnex/tgamehub/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/licnex/tgamehub.svg?style=for-the-badge
-[forks-url]: https://github.com/licnex/tgamehub/network/members
-[stars-shield]: https://img.shields.io/github/stars/licnex/tgamehub.svg?style=for-the-badge
-[stars-url]: https://github.com/licnex/tgamehub/stargazers
-[issues-shield]: https://img.shields.io/github/issues/licnex/tgamehub.svg?style=for-the-badge
-[issues-url]: https://github.com/licnex/tgamehub/issues
-[license-shield]: https://img.shields.io/github/license/licnex/tgamehub.svg?style=for-the-badge
-[license-url]: https://github.com/licnex/tgamehub/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/licnex/TGameHub.svg?style=for-the-badge
+[contributors-url]: https://github.com/licnex/TGameHub/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/licnex/TGameHub.svg?style=for-the-badge
+[forks-url]: https://github.com/licnex/TGameHub/network/members
+[stars-shield]: https://img.shields.io/github/stars/licnex/TGameHub.svg?style=for-the-badge
+[stars-url]: https://github.com/licnex/TGameHub/stargazers
+[issues-shield]: https://img.shields.io/github/issues/licnex/TGameHub.svg?style=for-the-badge
+[issues-url]: https://github.com/licnex/TGameHub/issues
+[license-shield]: https://img.shields.io/github/license/licnex/TGameHub.svg?style=for-the-badge
+[license-url]: https://github.com/licnex/TGameHub/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/momin-khan-592797283
 [product-screenshot]: images/screenshot.png
