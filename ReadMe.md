@@ -81,16 +81,15 @@ This is an example of how you may give instructions on setting up your project l
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+* A decent computer
+* The ability to follow the installation instructions
+* The ability to follow the usage instructions
 
 ### Installation
-- clone this repo
-- run main.py
+- clone this repo using `git clone https://github.com/Licnex/TGameHub.git`
+- get into the repo using `cd tgamehub`
+- intall the used library using `pip install -r requirements.txt`(dont worry if pip gives you an error on could find a version, then its probably preinstalled into your computer and just manually install all the other libraries in requirements.txt using pip) 
+- run main.py using `python main.py`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
