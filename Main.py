@@ -44,7 +44,8 @@ def main_menu():
         elif choice == '10':
             print("TGameHub is a collection of classic games written in Python.")
             print("Use the menu to select a game and play.")
-            print("Please keep the terminal window size large as a very small window may cause an error")
+            print("Please keep the terminal window size large and zoom out as much as possible to avoid display errors")
+            print("If you need help with a specific game, please refer to Readme.md")
         else:
             print("❌ Invalid choice. Please enter a number from 0 to 7.")
             input("Press Enter to try again...")
