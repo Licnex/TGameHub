@@ -3,3 +3,4 @@ datetime
 curses
 random
 re
+chess
