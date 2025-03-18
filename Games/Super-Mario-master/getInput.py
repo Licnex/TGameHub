@@ -1,24 +1,26 @@
-'''module to take input'''
+import sys
 
+if sys.platform.startswith('win'):
+    import msvcrt
 
-class _getChUnix:
-    '''class to take input'''
+    class _GetCh:
+        def __call__(self):
+            # Use msvcrt on Windows
+            return msvcrt.getch().decode('utf-8')
+else:
+    import tty
+    import termios
 
-    def __init__(self):
-        '''init def to take input'''
-        import tty
-        import sys
+    class _GetCh:
+        def __call__(self):
+            fd = sys.stdin.fileno()
+            old_settings = termios.tcgetattr(fd)
+            try:
+                tty.setraw(fd)
+                ch = sys.stdin.read(1)
+            finally:
+                termios.tcsetattr(fd, termios.TCSADRAIN, old_settings)
+            return ch
 
-    def __call__(self):
-        '''def to call function'''
-        import sys
-        import tty
-        import termios
-        fedvar = sys.stdin.fileno()
-        old_settings = termios.tcgetattr(fedvar)
-        try:
-            tty.setraw(sys.stdin.fileno())
-            charvar = sys.stdin.read(1)
-        finally:
-            termios.tcsetattr(fedvar, termios.TCSADRAIN, old_settings)
-        return charvar
+# Expose a getch function that works on all systems.
+getch = _GetCh()
