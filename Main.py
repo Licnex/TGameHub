@@ -7,7 +7,7 @@ def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def main_menu():
-    """Displays the game hub menu and handles user input."""
+    """Displays the game hub menu and handles user input. Make sure you have installed all the requirements manaully before using this."""
     while True:
         clear_screen()
         print("🎮 Welcome to TGameHub! 🎮")
