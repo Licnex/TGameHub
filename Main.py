@@ -1,6 +1,6 @@
 import os
 import sys
-from Games import TicTacToe, Connect4, Sudoku, Snake, Hangman, Battleship, Chess
+from Games import TicTacToe, Connect4, Sudoku, Snake, Hangman, BattleShip, Chess
 
 def clear_screen():
     """Clears the terminal screen for a better user experience."""
@@ -18,9 +18,9 @@ def main_menu():
         print("5. Play Battleship")
         print("6. Play Sudoku")
         print("7. Play Chess")
-        print("9. Exit")
-        print("10. Help")
-        choice = input("Choose an option (0-7): ").strip()
+        print("8. Exit")
+        print("9. Help")
+        choice = input("Choose an option (1-9): ").strip()
 
         if choice == '1':
             TicTacToe.play()
@@ -31,21 +31,21 @@ def main_menu():
         elif choice == '4':
             Connect4.play()
         elif choice == '5':
-            Battleship.play()
+            BattleShip.play()
         elif choice == '6':
             Sudoku.play()
         elif choice == '7':
             Chess.play()
-        elif choice == '9':
+        elif choice == '8':
             print("Thanks for playing! Goodbye. 👋")
             sys.exit()
-        elif choice == '10':
+        elif choice == '9':
             print("TGameHub is a collection of classic games written in Python.")
             print("Use the menu to select a game and play.")
             print("Please keep the terminal window size large and zoom out as much as possible to avoid display errors")
             print("If you need help with a specific game, please refer to Readme.md")
         else:
-            print("❌ Invalid choice. Please enter a number from 0 to 7.")
+            print("❌ Invalid choice. Please enter a number from 1 to 9.")
             input("Press Enter to try again...")
 
 if __name__ == "__main__":
