@@ -1,0 +1,25 @@
+# Git attributes for TGameHub
+
+# Set default behavior for all files
+* text=auto
+
+# Python files
+*.py text eol=lf
+
+# Shell scripts (Unix line endings)
+*.sh text eol=lf
+
+# Batch files (Windows line endings)
+*.bat text eol=crlf
+
+# Documentation
+*.md text eol=lf
+*.txt text eol=lf
+
+# Data files
+*.json text eol=lf
+
+# Binary files
+*.wav binary
+*.mp3 binary
+*.pyc binary
