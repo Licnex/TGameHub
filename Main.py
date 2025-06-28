@@ -7,7 +7,7 @@ def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def main_menu():
-    """Displays the game hub menu and handles user input. Make sure you have installed all the requirements manaully before using this."""
+    """Displays the game hub menu and handles user input. Make sure you have installed all the requirements manually before using this."""
     while True:
         clear_screen()
         print("🎮 Welcome to TGameHub! 🎮")
@@ -43,8 +43,9 @@ def main_menu():
             print("TGameHub is a collection of classic games written in Python.")
             print("Use the menu to select a game and play.")
             print("Please keep the terminal window size large and zoom out as much as possible to avoid display errors")
-            print("Please try to install all the requrements manaully as some os have some already installed and some don't. look at the requirements.txt file for more information.")
+            print("Please try to install all the requirements manually as some OS have some already installed and some don't. Look at the requirements.txt file for more information.")
             print("If you need help with a specific game, please refer to Readme.md")
+            input("Press Enter to continue...")
         else:
             print("❌ Invalid choice. Please enter a number from 1 to 9.")
             input("Press Enter to try again...")
