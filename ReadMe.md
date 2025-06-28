@@ -71,10 +71,25 @@ To get a local copy up and running follow these simple example steps.
 * The ability to follow the usage instructions
 
 ### Installation
-- clone this repo using `git clone https://github.com/Licnex/TGameHub.git`
-- get into the repo using `cd TGameHub`
-- intall the used library using `pip install -r requirements.txt`(dont worry if pip gives you an error on could find a version, then its probably preinstalled into your computer and just manually install all the other libraries in requirements.txt using pip) 
-- run Main.py using `python Main.py`
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Licnex/TGameHub.git
+   cd TGameHub
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+   > **Note:** Some packages might already be installed on your system. If you get version conflicts, install packages individually.
+
+3. **Run the game:**
+   ```bash
+   python Main.py
+   ```
+
+That's it! No additional setup scripts needed. 🎮
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -118,3 +118,6 @@ if __name__ == "__main__":
         print(f"\n❌ An unexpected error occurred: {e}")
         print("Please report this issue at: https://github.com/Licnex/tgamehub")
         sys.exit(1)
+
+if __name__ == "__main__":
+    main_menu()
