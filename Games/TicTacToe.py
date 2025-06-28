@@ -109,4 +109,4 @@ def main(stdscr):
             current_player = flip_player(current_player)
 
 def play():
-    curses.wrapper(play)
+    curses.wrapper(main)

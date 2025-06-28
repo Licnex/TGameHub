@@ -1,2 +1,18 @@
-numpy
-chess
+# TGameHub Requirements
+# Install with: pip install -r requirements.txt
+
+# Core game dependencies
+numpy              # Used by TicTacToe and Connect4 for board management
+chess               # Used by Chess game for game logic and validation
+
+# Platform-specific curses support
+# Most games use curses for terminal UI
+windows-curses>=2.3.0;platform_system=="Windows"  # Curses support for Windows
+# On Linux/macOS, curses is built-in
+
+# Optional: For better terminal experience
+colorama            # Better color support across platforms
+
+# Development dependencies (optional)
+# pytest>=6.0               # For running tests
+# black>=21.0               # Code formatting
